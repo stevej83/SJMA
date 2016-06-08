@@ -4,6 +4,7 @@ import stringHelper from 'string';
 
 export default function () {
   const warnHtmlSources = Meteor.settings.private.WEATHER_WARNING_URL;
+  // const warnHtmlSources = Meteor.settings.private.WEATHER_WARNING_URL_TEST;
 
   let warnHtmlObject;
   let warnHtmlString = '';

@@ -6,6 +6,7 @@
     "ROOT_URL": "http://localhost:3000",
     "WEATHER_INFO_URL": "http://rss.weather.gov.hk/rss/CurrentWeather.xml",
     "WEATHER_WARNING_URL": "http://www.weather.gov.hk/textonly/v2/warning/warn.htm",
+    "WEATHER_WARNING_URL_TEST": "http://127.0.0.1/hkotest.htm",
     "WEATHER_IMG_PATH": "/resources/images/weather/",
     "IMG_FORMAT": ".jpg",
     "WEATHERINFO_INTERVAL": "10000"

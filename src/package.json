@@ -1,0 +1,13 @@
+{
+  "name": "src",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "react-router": "^2.4.1",
+    "string": "^3.3.1",
+    "xml2js": "^0.4.16"
+  }
+}

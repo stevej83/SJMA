@@ -74,6 +74,7 @@ Meteor.setInterval((function () {
   let img = Meteor.settings.private.WEATHER_IMG_PATH + iconIdInt + Meteor.settings.private.IMG_FORMAT;
 
   if (temperature && humidity) {
+    // upsert means 'creates a new document when no document matches the query criteria'
     Weathers.upsert({ city: 'Hong Kong' }, { $set: { temperature: temperature, humidity: humidity, img: img } },
       function (error) {
         if (error) {

@@ -9,6 +9,7 @@
     "WEATHER_WARNING_URL_TEST": "http://127.0.0.1/hkotest.htm",
     "WEATHER_IMG_PATH": "/resources/images/weather/",
     "IMG_FORMAT": ".jpg",
-    "WEATHERINFO_INTERVAL": "10000"
+    "WEATHERINFO_INTERVAL": "10000",
+    "MONITORINFO_INTERVAL": "10000"
   }
 }

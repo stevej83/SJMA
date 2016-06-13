@@ -14,16 +14,8 @@ export default function () {
     console.log(e);
   }*/
 
-  let kioskId = Meteor.connection._lastSessionId;
-
-  var jsId = document.cookie.match(/JSESSIONID=[^;]+/);
-    if(jsId != null) {
-        if (jsId instanceof Array)
-            jsId = jsId[0].substring(11);
-        else
-            jsId = jsId.substring(11);
-    }
-
+  //let kioskId = Meteor.connection._lastSessionId;
+  let kioskId = '123test';
 
   /*let list = new Array(3);
   list[0] = weatherId;

@@ -16,11 +16,15 @@ class MonitorUiClass extends Component {
     return (
       <div>
         <table>
+          <thead>
           <tr>
             <th>Kiosk Id</th>
             <th>Status</th>
           </tr>
+          </thead>
+          <tbody>
           {this.renderMonitorInfo()}
+          </tbody>
         </table>
       </div>
     );
